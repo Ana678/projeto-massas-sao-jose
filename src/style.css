@@ -1,0 +1,47 @@
+@import 'typeface-poppins';
+
+* {
+  font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #725938; /* Set the color of the thumb */
+    border-radius: 2px; /* Round the corners of the thumb */
+}
+
+/* Firefox */
+/* The scrollbar will only be styled if the user has enabled custom styling in Firefox */
+/* Check the "layout.css.scrollbar-color.enabled" preference in "about:config" */
+/* See more: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars */
+
+/* Set the color of the thumb and track */
+body {
+    scrollbar-color: #725938 #EBDECD; /* thumb color, track color */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+}
+
+/* CSS PARA TEXTOS */
+
+.title{
+    color: #FFF;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+.subtitle{
+    color: var(--black-light-hover, #E7E7E7);
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.right{
+    text-align: right;
+}
