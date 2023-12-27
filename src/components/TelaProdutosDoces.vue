@@ -14,36 +14,36 @@ const count = ref(0)
             <p class="title-second">Conheça nossos produtos</p>
             <div class="row div-subtitle">
                 <img src="../assets/trigo_gradiente.png" alt="Trigo">
-                <p class="subtitle-second">massas</p>
+                <p class="subtitle-second">doces</p>
                 <img src="../assets/trigo_gradiente.png" alt="Trigo">
             </div>
         </div>
         <div class="row products">
             <div class="card-product">
-                <img class="card-product--img" src="../assets/produtos/bolacha_de_leite.png" alt="Bolacha de Leite">
+                <img class="card-product--img" src="../assets/produtos/doce_leite_com_goiabada.png" alt="Doce de Leite com Goiabada">
                 <div class="card-product--text">
-                    <p for="" class="card-product--title">Bolacha de Leite</p>
+                    <p for="" class="card-product--title">Leite com Goiabada</p>
                     <p for="" class="card-product--subtitle">farinha de trigo, leite, açúcar, manteiga e bicarbonato de sódio.</p>
                 </div>
             </div>
             <div class="card-product">
-                <img class="card-product--img" src="../assets/produtos/bolacha_preta.png" alt="Bolacha Preta">
+                <img class="card-product--img" src="../assets/produtos/doce_especie.png" alt="Doce Espécie">
                 <div class="card-product--text">
-                    <p for="" class="card-product--title">Bolacha Preta</p>
+                    <p for="" class="card-product--title">Espécie</p>
                     <p for="" class="card-product--subtitle">farinha de trigo, rapadura, margarina, bicarbonato de soda e erva-doce.</p>
                 </div>
             </div>
             <div class="card-product">
-                <img class="card-product--img" src="../assets/produtos/bolacha_mista.png" alt="Bolacha Mista">
+                <img class="card-product--img" src="../assets/produtos/doce_leite_com_ameixa.png" alt="Doce de Leite com Ameixa">
                 <div class="card-product--text">
-                    <p for="" class="card-product--title">Bolacha Mista</p>
-                    <p for="" class="card-product--subtitle">farinha de trigo, rapadura, leite, açúcar, manteiga e bicarbonato de sódio e erva-doce.</p>
+                    <p for="" class="card-product--title">Leite com Ameixa</p>
+                    <p for="" class="card-product--subtitle">farinha de trigo, leite, açúcar, manteiga e bicarbonato de sódio.</p>
                 </div>
             </div>
             <div class="card-product">
-                <img class="card-product--img" src="../assets/produtos/bolacha_palito.png" alt="Biscoito Palito">
+                <img class="card-product--img" src="../assets/produtos/doce_leite_cremoso.png" alt="Doce de Leite Cremoso">
                 <div class="card-product--text">
-                    <p for="" class="card-product--title">Biscoito Palito</p>
+                    <p for="" class="card-product--title">Leite Cremoso</p>
                     <p for="" class="card-product--subtitle">farinha de trigo, leite, açúcar, manteiga e bicarbonato de sódio.</p>
                 </div>
             </div>

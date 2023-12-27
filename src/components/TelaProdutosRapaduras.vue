@@ -14,37 +14,30 @@ const count = ref(0)
             <p class="title-second">Conheça nossos produtos</p>
             <div class="row div-subtitle">
                 <img src="../assets/trigo_gradiente.png" alt="Trigo">
-                <p class="subtitle-second">massas</p>
+                <p class="subtitle-second">rapaduras</p>
                 <img src="../assets/trigo_gradiente.png" alt="Trigo">
             </div>
         </div>
         <div class="row products">
             <div class="card-product">
-                <img class="card-product--img" src="../assets/produtos/bolacha_de_leite.png" alt="Bolacha de Leite">
+                <img class="card-product--img" src="../assets/produtos/rapadura_castanha.png" alt="Rapadura de Castanha">
                 <div class="card-product--text">
-                    <p for="" class="card-product--title">Bolacha de Leite</p>
-                    <p for="" class="card-product--subtitle">farinha de trigo, leite, açúcar, manteiga e bicarbonato de sódio.</p>
+                    <p for="" class="card-product--title">Castanha</p>
+                    <p for="" class="card-product--subtitle">leite, açúcar, cravo, erva doce, castanha de caju e conservante.</p>
                 </div>
             </div>
             <div class="card-product">
-                <img class="card-product--img" src="../assets/produtos/bolacha_preta.png" alt="Bolacha Preta">
+                <img class="card-product--img" src="../assets/produtos/rapadura_leite.png" alt="Rapadura de Leite">
                 <div class="card-product--text">
-                    <p for="" class="card-product--title">Bolacha Preta</p>
-                    <p for="" class="card-product--subtitle">farinha de trigo, rapadura, margarina, bicarbonato de soda e erva-doce.</p>
+                    <p for="" class="card-product--title">Leite</p>
+                    <p for="" class="card-product--subtitle">leite fresco, açúcar cristal e sorbato de potássio.</p>
                 </div>
             </div>
             <div class="card-product">
-                <img class="card-product--img" src="../assets/produtos/bolacha_mista.png" alt="Bolacha Mista">
+                <img class="card-product--img" src="../assets/produtos/rapadura_coco.png" alt="Rapadura de Coco">
                 <div class="card-product--text">
-                    <p for="" class="card-product--title">Bolacha Mista</p>
-                    <p for="" class="card-product--subtitle">farinha de trigo, rapadura, leite, açúcar, manteiga e bicarbonato de sódio e erva-doce.</p>
-                </div>
-            </div>
-            <div class="card-product">
-                <img class="card-product--img" src="../assets/produtos/bolacha_palito.png" alt="Biscoito Palito">
-                <div class="card-product--text">
-                    <p for="" class="card-product--title">Biscoito Palito</p>
-                    <p for="" class="card-product--subtitle">farinha de trigo, leite, açúcar, manteiga e bicarbonato de sódio.</p>
+                    <p for="" class="card-product--title">Coco</p>
+                    <p for="" class="card-product--subtitle">coco, açúcar e bircabonato de sódio.</p>
                 </div>
             </div>
         </div>
