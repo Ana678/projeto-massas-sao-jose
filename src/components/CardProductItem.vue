@@ -16,7 +16,8 @@ export type CardProductItemProps = {
     description: string
 }
 const props = defineProps<CardProductItemProps>();
-const path = `${new URL("/src/assets/produtos/", document.baseURI).href}${props.img}`;
+
+const path = '/src/assets/produtos/'+props.img || '/assets/produtos/'+props.img;
 </script>
 
 <style scoped>
