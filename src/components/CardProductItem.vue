@@ -1,6 +1,6 @@
 <template>
     <div class="card-product">
-        <img class="card-product--img" :src="'/src/assets/produtos/'+props.img" :alt="props.name">
+        <img class="card-product--img" :src="path" :alt="props.name">
         <div class="card-product--text">
             <p for="" class="card-product--title">{{ props.name }}</p>
             <p for="" class="card-product--subtitle">{{ props.description }}</p>
@@ -15,9 +15,8 @@ export type CardProductItemProps = {
     name: string,
     description: string
 }
-
 const props = defineProps<CardProductItemProps>();
-
+const path = `${new URL("/src/assets/produtos/", document.baseURI).href}${props.img}`;
 </script>
 
 <style scoped>
